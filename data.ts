@@ -17,7 +17,7 @@ export const list: Product[] = [
     {
         id: 3,
         image: "https://dcdn.mitiendanube.com/stores/002/415/469/products/palmeiras431-2422f2315cb8145f8b16779999685481-640-0.jpg",
-        name: "Camisa Palmeiras Treino 23/24",
+        name: "Camisa Palmeiras Treino || 23/24",
         price: 99.99,
     },
     {
@@ -41,7 +41,7 @@ export const list: Product[] = [
     {
         id: 7,
         image: "https://lncimg.lance.com.br/cdn-cgi/image/width=828,quality=75,fit=pad,format=webp/uploads/2021/02/23/60351943bf445.jpeg",
-        name: "Camisa Palmeiras Home 2021",
+        name: "Camisa Palmeiras Home || 21",
         price: 149.99,
     },
     {

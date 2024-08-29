@@ -13,7 +13,9 @@ export default function App() {
         style={styles.hero}
       />
       <View style={styles.area}>
-        <Text style={styles.h1}>Produtos no precinho 👌</Text>
+        <View style={styles.header}>
+        <Text style={styles.h1}>℗rodutos no ℗recinho 👌</Text>
+        </View>
         <FlatList
           data={list}
           renderItem={({item}: {item:Product})=> (<ProductItem product={item}/>)}
@@ -24,20 +26,39 @@ export default function App() {
   );
 }
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    
   },
   hero:{
     width: '100%',
-    height: 120
+    height: 120,
+
   },
   area:{
-    padding: 10,
-    flex: 1
+    flex: 1,
+    //padding: 10
+
+    
+    
   },
   h1:{
-    fontSize: 24,
-    marginBottom: 10
+    fontSize: 20,
+    color: '#fff',
+    fontWeight: 'bold'
   },
+  header:{
+    backgroundColor: '#024F28',
+    width: '100%',
+    alignItems: 'center',
+    justifyContent:'center',
+    marginBottom: 25,
+    height:60,
+    
+    
+
+  }
 });
+
